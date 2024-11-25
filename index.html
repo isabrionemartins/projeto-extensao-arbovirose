@@ -3,73 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Controle de Arboviroses</title>
+    <meta name="description" content="Saiba mais sobre o controle de arboviroses como dengue, zika e chikungunya, com dicas de prevenção, sintomas e informações úteis.">
+    <title>Controle das Arboviroses</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
             background-color: #f9f9f9;
-            color: #333;
         }
+
         header {
-            background: #007BFF;
-            color: #fff;
-            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
             text-align: center;
         }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
         section {
             padding: 20px;
         }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image {
+            text-align: center;
+            margin: 20px 0;
+        }
+
         img {
             max-width: 100%;
-            height: auto;
-            margin: 10px 0;
+            border-radius: 8px;
         }
-        .tips {
-            background: #e7f3ff;
-            padding: 10px;
-            border-left: 4px solid #007BFF;
-            margin: 10px 0;
-        }
+
         footer {
+            background-color: #333;
+            color: white;
             text-align: center;
-            padding: 10px;
-            background: #007BFF;
-            color: #fff;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+
+        .resources a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        .resources a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Controle de Arboviroses</h1>
+        <h1>Controle das Arboviroses</h1>
+        <p>Informações importantes sobre a dengue, zika e chikungunya</p>
     </header>
-    <section>
-        <h2>O que são arboviroses?</h2>
-        <p>Arboviroses são doenças transmitidas por insetos, como os mosquitos, e incluem dengue, zika, chikungunya e febre amarela. Elas afetam milhões de pessoas todos os anos e podem ser prevenidas com ações simples.</p>
-        
-        <img src="mosquito.jpg" alt="Mosquito transmissor de arboviroses">
-        
-        <h2>Como prevenir?</h2>
-        <div class="tips">
+    <nav>
+        <a href="#sobre">Sobre Arboviroses</a>
+        <a href="#prevencao">Prevenção</a>
+        <a href="#sintomas">Sintomas</a>
+        <a href="#recursos">Links Úteis</a>
+    </nav>
+    <main>
+        <section id="sobre" class="container">
+            <h2>O que são Arboviroses?</h2>
+            <p>
+                Arboviroses são doenças transmitidas por insetos, como os mosquitos, e causadas por vírus. 
+                Exemplos conhecidos incluem dengue, zika e chikungunya. Essas doenças representam um grande desafio de saúde pública, especialmente em regiões tropicais.
+            </p>
+            <div class="image">
+                <img src="arboviroses.jpg" alt="Mosquito transmissor de arboviroses">
+            </div>
+        </section>
+
+        <section id="prevencao" class="container">
+            <h2>Como Prevenir?</h2>
             <ul>
-                <li>Elimine água parada, como em vasos de plantas, pneus ou garrafas.</li>
-                <li>Mantenha caixas d'água e reservatórios fechados.</li>
-                <li>Use repelente e mosquiteiros em áreas de risco.</li>
-                <li>Colabore com mutirões de limpeza na sua comunidade.</li>
+                <li>Elimine locais que acumulam água parada, como vasos e pneus.</li>
+                <li>Use repelente e roupas que cubram braços e pernas em áreas de risco.</li>
+                <li>Instale telas em janelas e portas para evitar a entrada de mosquitos.</li>
+                <li>Coloque areia nos pratinhos de plantas.</li>
+                <li>Participe de campanhas de conscientização e mutirões.</li>
             </ul>
-        </div>
-        <h2>Sintomas das principais doenças</h2>
-        <p>Caso apresente sintomas como febre alta, dor muscular intensa, manchas na pele ou cansaço extremo, procure atendimento médico imediatamente.</p>
-        
-        <img src="prevencao.jpg" alt="Campanha de prevenção contra arboviroses">
-    </section>
+            <div class="image">
+                <img src="prevencao.jpg" alt="Campanha de prevenção">
+            </div>
+        </section>
+
+        <section id="sintomas" class="container">
+            <h2>Sintomas de Alerta</h2>
+            <p>Os sintomas variam dependendo da doença, mas podem incluir:</p>
+            <ul>
+                <li><strong>Dengue:</strong> Febre alta, dores musculares e manchas vermelhas na pele.</li>
+                <li><strong>Zika:</strong> Coceira, erupções cutâneas e conjuntivite.</li>
+                <li><strong>Chikungunya:</strong> Febre alta e dores intensas nas articulações.</li>
+            </ul>
+            <p>
+                Caso apresente sintomas, procure uma unidade de saúde imediatamente para diagnóstico e tratamento adequados.
+            </p>
+            <div class="image">
+                <img src="sintomas.jpg" alt="Pessoa consultando um médico">
+            </div>
+        </section>
+
+        <section id="recursos" class="container">
+            <h2>Links Úteis</h2>
+            <p>Saiba mais sobre arboviroses nos sites abaixo:</p>
+            <div class="resources">
+                <ul>
+                    <li><a href="https://www.gov.br/saude" target="_blank">Ministério da Saúde</a></li>
+                    <li><a href="https://www.who.int" target="_blank">Organização Mundial da Saúde (OMS)</a></li>
+                    <li><a href="https://www.fiocruz.br" target="_blank">Fiocruz</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Controle de Arboviroses | Educar para Prevenir</p>
+        <p>&copy; 2024 Thaisa Brione Martins. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
